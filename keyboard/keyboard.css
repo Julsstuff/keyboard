@@ -1,0 +1,198 @@
+h1 {
+    color: #4f2e2d;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background: linear-gradient( #edad53, #f4e6cd);
+    background-attachment: fixed;
+}
+
+.main {
+    position: absolute;
+    left: 350px;
+    top: 400px;
+}
+
+.space {
+    position: absolute;
+    left: 300px;
+    width: 600px;
+    height: 80px;
+    font-size: 40px;
+    color: #4f2e2d;
+    background-color: #edad53;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.but {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    color: #4f2e2d;
+    background-color: #edad53;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.enter, .shift, .shift2 {
+    height: 80px;
+    width: 160px;
+    font-size: 30px;
+    background-color: #edad53;
+    color: #4f2e2d;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.tab {
+    height: 80px;
+    width: 100px;
+    font-size: 30px;
+    color: #4f2e2d;
+    background-color: #edad53;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.caps_lock {
+    height: 80px;
+    width: 180px;
+    font-size: 30px;
+    color: #4f2e2d;
+    background-color: #edad53;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.display {
+    font-size: 50px;
+    color: #4f2e2d;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.backspace {
+    height: 80px;
+    width: 180px;
+    font-size: 30px;
+    background-color: #edad53;
+    color: #4f2e2d;
+    font-family: "Lucida Console", "Courier New", monospace; 
+}
+
+@media ( max-width: 1440px) {
+.but {
+    width: 60px;
+    height: 60px;
+}
+.enter, .shift, .shift2 {
+    height: 60px;
+    width: 140px;
+}
+.tab {
+    height: 60px;
+    width: 80px;
+}
+.caps_lock {
+    height: 60px;
+    width: 160px;
+    font-size: 25px;
+}
+.backspace {
+    height: 60px;
+    width: 160px;
+    font-size: 25px;
+}
+.space {
+    left: 250px;
+    width: 500px;
+    height: 60px;
+}
+.main {
+    position: absolute;
+    left: 250px;
+    top: 400px;
+}
+}
+
+@media ( max-width: 1024px) {
+    .but {
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .enter, .shift, .shift2 {
+        height: 40px;
+        width: 130px;
+    }
+    .tab {
+        height: 40px;
+        width: 70px;
+    }
+    .caps_lock {
+        height: 40px;
+        width: 150px;
+        font-size: 25px;
+    }
+    .backspace {
+        height: 40px;
+        width: 150px;
+        font-size: 25px;
+    }
+    .space {        
+        left: 150px;
+        width: 400px;
+        height: 40px;
+        font-size: 30px;
+    }
+    .main {
+        position: absolute;
+        left: 200px;
+        top: 350px;
+    } 
+}
+
+@media ( max-width: 768px) {
+    .but {
+        width: 30px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .enter, .shift, .shift2 {
+        height: 30px;
+        width: 120px;
+        font-size: 20px;
+    }
+    .tab {
+        height: 30px;
+        width: 60px;
+        font-size: 20px;
+    }
+    .caps_lock {
+        height: 30px;
+        width: 140px;
+        font-size: 20px;
+    }
+    .backspace {
+        height: 30px;
+        width: 140px;
+        font-size: 15px;
+    }
+    .space {        
+        left: 150px;
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .main {
+        position: absolute;
+        left: 100px;
+        top: 350px;
+    } 
+}
+@media ( max-width: 425px) {
+    .space {
+        left: 70px;
+    }
+    .main {
+        left: 50px;
+    }
+}
+@media ( max-width: 320px) {
+    .space {
+        left: 10px;
+    }
+}
